@@ -10,4 +10,3 @@ if ($age > 60 and $cost <= 5000) {
 } else {
     echo $cost;
 }
-?>
