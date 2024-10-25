@@ -9,4 +9,4 @@ final class Helicopter extends VehicleType implements VehiclesCanFly
         return "Вертолет летит";
     }
 }
-{}
+
