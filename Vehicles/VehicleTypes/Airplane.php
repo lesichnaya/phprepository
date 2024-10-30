@@ -14,8 +14,3 @@ final class Airplane extends VehicleType implements VehiclesCanRide, VehiclesCan
         return "Самолет летит\n";
     }
 }
-$il_96 = new Airplane();
-$il_96->properties(900, 2000, "Il-96");
-$il_96->displayInfo();
-echo $il_96->fly();
-echo $il_96->ride();

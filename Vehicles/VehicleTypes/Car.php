@@ -9,7 +9,3 @@ final class Car extends VehicleType implements VehiclesCanRide
         return "Машина едет";
     }
 }
-$honda_crv = new Car();
-$honda_crv->properties(250, 2000, "Honda CR-V");
-$honda_crv->displayInfo();
-echo $honda_crv->ride();

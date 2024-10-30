@@ -15,7 +15,7 @@ abstract class VehicleType
     {
         $this->setProperties($maxspeed, $price, $model);
     }
-    function displayInfo(): void
+    public function displayInfo(): void
     {
         echo "Модель: $this->model; Максимальная скорость: $this->maxspeed; Цена: $this->price.\n";
     }
